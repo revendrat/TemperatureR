@@ -8,6 +8,9 @@
 #' @examples
 #' Celsius_to_Kelvin(1) # returns 274.15K
 Celsius_to_Kelvin <- function(temp_C) {
+  if(is.numeric(temp_C)){
   temp_K <- temp_C + 273.15
   return(temp_K)
+  }
+  print("Error: Temperature in Celsius is passed as non-numeric value")
 }
