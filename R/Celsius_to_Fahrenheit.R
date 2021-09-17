@@ -1,4 +1,4 @@
-#' Converts Temperature in Celsius to Fahrenheit
+#' Converts Temperature in Celsius to Fahrenheit scale
 #'
 #' @param temp_C numeric
 #'
