@@ -8,6 +8,12 @@
 #' @examples
 #' Fahrenheit_to_Celsius(1) #returns -17.22222
 Fahrenheit_to_Celsius <- function(temp_F) {
+  if(is.numeric(temp_F))
+  {
   temp_C  <-  (temp_F - 32)*5/9
+   }
+  else{
+    print("ENter a number")
+    }
   return(temp_C)
 }
